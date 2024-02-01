@@ -1,3 +1,3 @@
-# Quick Start witg Prometheus and Server Monitoring Dashboards
+# Quick Start with Prometheus and Server Monitoring Dashboards
 
 ![](./imgs/grafana-prometheus-archi.svg)
