@@ -36,3 +36,43 @@
 - Public dashboards: Grafana has a public dashboards repository, where we can find dashboards created by other users and, we can import them into our Grafana instance.
 
 ![](./imgs/Screenshot%202024-02-01%20at%2011.30.47 AM.png)
+
+### Explore
+
+- Explore is a tool that allows us to query the data sources and, visualize the data in a table format or in a graph format.
+- Here, we can select various data sources, apply various queries here.
+
+![](./imgs/Screenshot%202024-02-01%20at%2011.38.41 AM.png)
+
+
+### Alerting
+
+- Grafana allows us to create alerts on the metrics and, we can send the alerts to various channels like Slack, PagerDuty, etc...
+- We get many options like:
+  - Alert Rules: Here, we can create alert rules. For example, how frequently we want to check the data, what should be the threshold value, etc...
+  - Contact Points: Here, we can add the contact points like Slack, PagerDuty, etc...
+  - Notification Policies: Here, we can create notification policies, like when to send the notification, etc... This will help us with trigeering or muting the alert.
+  - Silences: Here, we can create silences, like if we don't want to get notified for a particular alert, we can create a silence for that alert.
+  - Groups: Here, we can create groups of alerts, like if we want to create a group of alerts for a particular application, we can create a group for that application.
+  - Admin: Here, we can see all the configurations related to the alerts created.
+
+![](./imgs/Screenshot%202024-02-01%20at%2011.44.38 AM.png)
+
+### Connections
+
+- Here, we can add various data sources like Prometheus, InfluxDB, ElasticSearch, MySQL, Postgres, etc... using Grafana.
+
+![](./imgs/Screenshot%202024-02-01%20at%2011.51.56 AM.png)
+
+### Administration
+
+- Plugins: Here, we can add various plugins to Grafana.
+- Users: Here, we can add various users to Grafana, and we can also assign various roles to the users.
+- Teams: Here, we can create various teams and, we can assign various roles to the teams, and than we can add users to the teams.
+- Service Accounts: So, let's we want to interact with grafana using APIs, in that case we will use a service account and, a token. That token will be used to connect to Grafana.
+- Default Preferences: Here, we can set the default preferences for the users. And, if user wants to change any preferences they wil be able to change it from here.
+- Settings: Here, we can change the settings of Grafana. If we want to make any changes to the settings, we can make it in `grafana.ini` or `custom.ini` file.
+- Organizations: Here, we can create various organizations and, each organization can have it's own set of users, teams, dashboards, etc...
+- Statistics and Licensing: Here, we can see the statistics of Grafana and, we can also add the license for Grafana.
+
+![](./imgs/Screenshot%202024-02-01%20at%2011.59.21 AM.png)
