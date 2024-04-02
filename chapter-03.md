@@ -50,7 +50,7 @@
 
   Now, let's say we want to clear space on our system as soon as the space occupied reaches a certain thresold. We can automate this thing. Let's say we have ansible installed in our environment, or our owwn custom automation available, and some API available in order to perform space cleanup.
 
-  - For that, we go to `Edit`, we goto `Layer` and than cllick on add item of `Button` type. Rename it as `Action` for the demo purpose. 
+  - For that, we go to `Edit`, we goto `Layer` and than cllick on add item of `Button` type. Rename it as `Action` for the demo purpose.
   
   ![](./imgs/Screenshot%202024-03-10%20at%203.31.23 AM.png)
 
@@ -63,3 +63,7 @@
   ![](./imgs/Screenshot%202024-03-10%20at%203.37.25 AM.png)
 
   Now, if you click Test API, this will launch an Ansible Job of performing the cleanup.
+
+# Diagrams in Canvas Panel
+
+- For the same dashbaord, Click on `Add`, than click `Visualization`
